@@ -1,0 +1,377 @@
+.home-page{
+    background-color: rgb(248, 244, 240);
+    padding-top: 6rem;
+    display: flex;
+   
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.left-div{
+    flex: 2;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.left-first-sec{
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.img-css{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.user-img{
+    
+    width: 100px;
+    margin-top: -3rem;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.left-div h3{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.left-div p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 13px;
+}
+
+.sub-left-flex{
+    display: flex;
+    background-color: rgb(243, 241, 243);
+    flex-direction: row;
+    margin-left: 2rem;
+    padding: 0%;
+    margin-right: 2rem;
+    border-radius: 7px;
+}
+
+.sub-flex-sec{
+    flex: 1;
+}
+
+.sub-flex-sec h3{
+    font-size: 14px;
+    
+}
+
+.sub-flex-sec p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-div{
+    border: none;
+    background-color: white;
+    margin-top: 1rem;
+    color: rgb(51, 51, 167);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.left-second-div{
+    margin-top: 1.5rem;
+    padding: 1%;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.left-second-div h3{
+    margin-left: 1rem;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.left-sec-card{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+   
+}
+
+.left-card-1{
+    flex: 1;
+}
+
+.left-card-2{
+    flex: 3;
+}
+
+.left-card-2 p{
+    text-align: left;
+    margin-top: -0.6rem;
+    margin-left: -1rem;
+}
+
+
+
+.left-card-3{
+    flex: 1;
+}
+
+.left-card-3 button{
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: white;
+    border-color: blue;
+    font-size: 14px;
+    color: rgb(72, 72, 155);
+    font-weight: bolder;
+}
+
+.popular-tags{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+}
+
+.popular-tags button{
+    
+    background-color: rgb(200, 226, 228);
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    margin-bottom: 0.6rem;
+    border: none;
+   
+}
+
+
+.mid-div{
+    flex: 3.3;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    
+}
+
+.first-sec-mid{
+    background-color: white;
+    display: flex;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+
+}
+
+.first-sec-mid1{
+    display: flex;
+    background-color: white;
+    padding-left: 3%;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2%;
+}
+
+.first-sec-mid input{
+    margin-left: 2rem;
+    border: none;
+}
+
+.first-sec-mid input:active{
+    border: none;
+}
+
+.mid-btn-div{
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 2rem;
+   
+}
+
+.mid-btn-sec-flex{
+    flex: 1;
+    padding: 2%;
+}
+
+
+.mid-div-post{
+    background-color: white;
+    border-radius: 6px;
+    padding: 3%;
+    margin-bottom: 1.7rem;
+}
+
+.mid-div-flex{
+    display: flex;
+  
+}
+
+.part-1{
+    flex: 1.2;
+}
+
+.part-2{
+    flex: 9;
+}
+
+.part-2 h3{
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.part-2 p{
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.part-3{
+    flex: 3;
+    font-size: 14px;
+    color: grey;
+}
+
+.mid-last-flex{
+    display: flex;
+    padding: 2%;
+}
+
+.mid-last-flex p{
+    flex: 1;
+}
+
+
+
+
+
+.right-div{
+    flex: 2;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+.trending-issue{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 2%;
+}
+
+.trending-issue h3{
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.my-groups{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.my-groups h1{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.add-new{
+    text-align: end;
+    margin-top: -2rem;
+    font-size: 14px;
+    padding-right: 1rem;
+    font-weight: bold;
+    color: rgb(45, 45, 156);
+    margin-bottom: 1.5rem;
+}
+
+.group-card{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: rgb(255, 252, 244);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gc-1{
+    flex: 5;
+}
+
+.gc-1 h3{
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+}
+
+
+
+.gc-2{
+    flex: 3;
+    padding-top: 1rem;
+}
+
+.gc-2 h3{
+    font-size: 12px;
+   
+}
+
+.gc-3{
+    flex: 2;
+    padding-top: 1rem;
+}
+
+.gc-3 h3{
+    font-size: 12px;
+}
+
+.gc-4{
+    flex: 1;
+    align-self: center;
+}
+
+.right-last-flex{
+    display: flex;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 235, 226);
+    margin-bottom: 1rem;
+}
+
+.last-flex0{
+    flex: 0.5;
+    padding-top: 0.5rem;
+}
+
+.last-flex1{
+    flex: 3;
+    text-align: left;
+}
+
+.last-flex1 h3{
+    font-size: 15px;
+    margin-right: 0.5rem;
+}
+
+.last-flex1 p{
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+
+
+.last-flex2{
+    flex: 1;
+    align-self: center;
+    margin-right: 0.5rem;
+}
